@@ -1,0 +1,16 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ray",
+  "license": "ISC",
+  "devDependencies": {
+    "graceful-fs": "^4.1.4",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0"
+  }
+}

@@ -1,0 +1,2 @@
+define(["jquery","underscore","backbone","bootstrap","text/text!../template/login.tpl","../services/loginS","../models/LoginM"],function(e,n,t,i,o,l,r){var c=t.View.extend({el:e("#container"),model:new r,events:{"click #btnLogin":"login","click #btnRest":"reset"},initialize:function(){this.model.on("invalid",function(e,n){alert(n)}),this.render()},render:function(){this.$el.html(n.template(o))},login:function(e){l.login(e,this)}});return c});
+//# sourceMappingURL=LoginV.js.map
